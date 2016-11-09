@@ -32,7 +32,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
           schema:
             type: string
       security: []
