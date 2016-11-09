@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "1"
   title: 'delnu-api '
-  description: 'TODO: Add Description'
+  description: 'Welcome to the api-documentation for our Del.Nu-server'
   license:
     name: MIT
     url: 'http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT'
@@ -170,7 +170,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -213,7 +213,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -255,7 +255,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -293,7 +293,7 @@ paths:
       parameters: []
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -342,7 +342,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -384,7 +384,7 @@ paths:
             $ref: '#/definitions/AddArticleRequest'
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
