@@ -194,7 +194,7 @@ paths:
         AllowDynamicQueryParameters: false
         AllowDynamicFormParameters: false
         IsMultiContentStreaming: false
-  '/auth/confirm_account/:confirmation_string':
+  /auth/confirm_account/:confirmation_string:
     get:
       description: >-
         Simply following this link with the provided param will activate the
@@ -203,10 +203,6 @@ paths:
       produces:
         - application/json
       parameters:
-        - name: confirmation_string
-          in: path
-          required: true
-          type: string
         - name: email
           in: formData
           required: true
