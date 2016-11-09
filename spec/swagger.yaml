@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  version: "1"
+  version: "1.0.1"
   title: 'delnu-api '
   description: 'TODO: Add Description'
   license:
@@ -32,7 +32,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
           schema:
             type: string
       security: []
@@ -97,7 +97,7 @@ paths:
             $ref: '#/definitions/RecentlyViewedRequest'
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -133,7 +133,7 @@ paths:
       parameters: []
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -170,7 +170,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -198,7 +198,7 @@ paths:
     get:
       description: >-
         Simply following this link with the provided param will activate the
-        corresponding user. 
+        corresponding user.
       operationId: Confirm account
       produces:
         - application/json
@@ -213,7 +213,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -234,7 +234,7 @@ paths:
           x-testName: Confirm account
           x-testDescription: >-
             Simply following this link with the provided param will activate the
-            corresponding user. 
+            corresponding user.
       x-operation-settings:
         CollectParameters: false
         AllowDynamicQueryParameters: false
@@ -255,7 +255,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -293,7 +293,7 @@ paths:
       parameters: []
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -342,7 +342,7 @@ paths:
           type: string
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
@@ -384,7 +384,7 @@ paths:
             $ref: '#/definitions/AddArticleRequest'
       responses:
         '200':
-          description: todo write description
+          description: ok
       security: []
       x-unitTests:
         - request:
